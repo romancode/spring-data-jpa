@@ -97,6 +97,11 @@ public class Person {
 		}
 		hobby.add(ihobby);
 	}
+	@Override
+	public String toString() {
+		return "Person [id=" + id + ", name=" + name + ", country=" + country + ", gender=" + gender + ", hobby="
+				+ hobby + "]";
+	}
 
 
 
